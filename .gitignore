@@ -1,0 +1,53 @@
+# Ignore the virtual environment folder
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Backup files
+*.swp
+*.bak
+*.tmp
+*.old
+
+# Logs and temporary files
+*.log
+*.tmp
+*.pid
+*.gz
+
+# Cache directories
+.cache/
+*.egg-info/
+.eggs/
+
+# Environment variables file
+.env
+.env.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Package manager lock files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test and coverage results
+.coverage
+.tox/
+.nox/
+pytest_cache/
+
+# IDE-specific files
+.vscode/
+.idea/
